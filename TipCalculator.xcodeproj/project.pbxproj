@@ -13,6 +13,7 @@
 		E604D1BD19D19D6100C97EE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E604D1BC19D19D6100C97EE2 /* Images.xcassets */; };
 		E604D1C019D19D6100C97EE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E604D1BE19D19D6100C97EE2 /* LaunchScreen.xib */; };
 		E604D1CC19D19D6100C97EE2 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604D1CB19D19D6100C97EE2 /* TipCalculatorTests.swift */; };
+		E604D1D819D1B2DC00C97EE2 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604D1D719D1B2DC00C97EE2 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E604D1C519D19D6100C97EE2 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E604D1CA19D19D6100C97EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E604D1CB19D19D6100C97EE2 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		E604D1D719D1B2DC00C97EE2 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E604D1BC19D19D6100C97EE2 /* Images.xcassets */,
 				E604D1BE19D19D6100C97EE2 /* LaunchScreen.xib */,
 				E604D1B319D19D6100C97EE2 /* Supporting Files */,
+				E604D1D719D1B2DC00C97EE2 /* TipCalculatorModel.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E604D1D819D1B2DC00C97EE2 /* TipCalculatorModel.swift in Sources */,
 				E604D1B819D19D6100C97EE2 /* ViewController.swift in Sources */,
 				E604D1B619D19D6100C97EE2 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				E604D1D119D19D6100C97EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E604D1D219D19D6100C97EE2 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				E604D1D419D19D6100C97EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
